@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class GroceryFormatter {
     public static void main(String[] args) {
-        String inputPath = "C:\\Downloads\\Groceries.txt";
+        String inputPath = "C:\\Users\\30974\\Downloads\\Groceries (3).txt";
         String outputPath = "FormattedGroceries.txt";
         try (BufferedReader reader = new BufferedReader(new FileReader(inputPath));
              BufferedWriter writer = new BufferedWriter(new FileWriter(outputPath))) {
